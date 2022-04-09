@@ -1,0 +1,152 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(61, 61, 61)
+Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.0417177901, 0, 0.103379719, 0)
+Frame.Size = UDim2.new(0, 744, 0, 371)
+Frame.Active = true
+Frame.Draggable = false
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Frame_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.Position = UDim2.new(-0.000973648683, 0, 0.157433778, 0)
+Frame_2.Size = UDim2.new(0, 100, 0, 311)
+
+TextButton.Parent = Frame_2
+TextButton.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.0852147266, 0, 0.0694994032, 0)
+TextButton.Size = UDim2.new(0, 82, 0, 21)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Earth"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+
+TextButton_2.Parent = Frame_2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextButton_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0.0852147266, 0, 0.185255021, 0)
+TextButton_2.Size = UDim2.new(0, 82, 0, 21)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Namek"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = Frame_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextButton_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.0852147266, 0, 0.3042261, 0)
+TextButton_3.Size = UDim2.new(0, 82, 0, 21)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Space"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+TextButton_4.Parent = Frame_2
+TextButton_4.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextButton_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.Position = UDim2.new(0.0852147266, 0, 0.419981718, 0)
+TextButton_4.Size = UDim2.new(0, 82, 0, 21)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Future"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+TextButton_5.Parent = Frame_2
+TextButton_5.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextButton_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.Position = UDim2.new(0.0852147266, 0, 0.532521904, 0)
+TextButton_5.Size = UDim2.new(0, 82, 0, 21)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "SecretWorld"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+
+TextButton_6.Parent = Frame_2
+TextButton_6.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextButton_6.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.Position = UDim2.new(0.0852147266, 0, 0.651492953, 0)
+TextButton_6.Size = UDim2.new(0, 82, 0, 21)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "Queue"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+
+TextButton_7.Parent = Frame_2
+TextButton_7.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
+TextButton_7.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.Position = UDim2.new(0.0852147266, 0, 0.770464063, 0)
+TextButton_7.Size = UDim2.new(0, 82, 0, 21)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "Zaros"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 14.000
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(-0.00121209561, 0, -0.00202568667, 0)
+TextLabel.Size = UDim2.new(0, 741, 0, 59)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Pocket_Potato's Hub"
+TextLabel.TextColor3 = Color3.fromRGB(250, 250, 250)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextButton_8.Parent = Frame
+TextButton_8.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_8.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.Position = UDim2.new(0.165036455, 0, 0.507436454, 0)
+TextButton_8.Size = UDim2.new(0, 191, 0, 50)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "AutoTOP"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14.000
+TextButton_8.TextWrapped = true
+
+TextButton_9.Parent = Frame
+TextButton_9.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_9.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.Position = UDim2.new(0.447087735, 0, 0.507436454, 0)
+TextButton_9.Size = UDim2.new(0, 191, 0, 50)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "AutoHardTOP"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14.000
+TextButton_9.TextWrapped = true
+
+TextButton_10.Parent = Frame
+TextButton_10.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextButton_10.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.Position = UDim2.new(0.725090444, 0, 0.507436454, 0)
+TextButton_10.Size = UDim2.new(0, 191, 0, 50)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "AutoBroly"
+TextButton_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.TextScaled = true
+TextButton_10.TextSize = 14.000
+TextButton_10.TextWrapped = true
